@@ -1,0 +1,17 @@
+CREATE TABLE sneakers (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, size INTEGER, color TEXT); 
+INSERT INTO sneakers VALUES (1, "prada", 800, 7, "navy"); 
+INSERT INTO sneakers VALUES (2, "ups", 100, 7.5, "white"); 
+INSERT INTO sneakers VALUES (3, "carmines", 200, 7, "red");
+INSERT INTO sneakers VALUES (4, "ones", 200, 7.5, "green");
+INSERT INTO sneakers VALUES (5, "ones", 200, 7.5, "patent red");
+INSERT INTO sneakers VALUES (6, "ones", 200,7, "black"); 
+INSERT INTO sneakers VALUES (7, "ones", 200, 7, "bred");
+INSERT INTO sneakers VALUES (8, "desert yeezy", 250, 7, "blush");
+INSERT INTO sneakers VALUES (9, "shark boot", 1200, 8, "black"); 
+INSERT INTO sneakers VALUES (10, "wave runner", 120, 8, "black"); 
+INSERT INTO sneakers VALUES (11, "rick owens", 1200, 7.5, "black");
+INSERT INTO sneakers VALUES (12, "balenciagas", 900, 7, "white"); 
+INSERT INTO sneakers VALUES (13, "off white fives", 600, 7.5, "cream");
+INSERT INTO sneakers VALUES (14, "off white fives", 600, 7.5, "gray");
+INSERT INTO sneakers VALUES (15, "prada", 700, 7, "black"); 
+SELECT * FROM sneakers ORDER BY price;
